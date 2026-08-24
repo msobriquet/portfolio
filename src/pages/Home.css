@@ -1,0 +1,54 @@
+/*to fill the little gap between the svg and the whole page*/
+
+@font-face {
+    font-family: 'IGS VGA 8x16';
+    src: url("src/assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+}
+
+.home {
+    font-family: 'IGS VGA 8x16';
+    background-image: url('src/assets/train-tunnel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    overflow: hidden; /*disable scrolling */
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+svg {
+    /* width: 100%; /*need to define viewport in order to do this 
+    height: 100%; */
+    z-index: 1;
+}
+
+.link {
+    position: absolute;
+    text-decoration: none;
+    font-size: 3vi;
+    color: rgb(93, 241, 59);
+    z-index: 10;
+    text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+

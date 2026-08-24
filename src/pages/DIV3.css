@@ -1,0 +1,41 @@
+/*to fill the little gap between the svg and the whole page*/
+
+@font-face {
+    font-family: 'IGS VGA 8x16';
+    src: url("src/assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+}
+
+.DIV3 {
+    font-family: 'IGS VGA 8x16';
+    margin: 0;
+    overflow: hidden; /*disable scrolling */
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+svg {
+    background-color: rgb(249, 196, 36);
+    width: 100%; /*need to define viewport in order to do this */
+    height: 100%;
+}
+
+.link {
+    position: absolute;
+    text-decoration: none;
+    font-size: 3vi;
+    color: rgb(93, 241, 59);
+    z-index: 10;
+}
