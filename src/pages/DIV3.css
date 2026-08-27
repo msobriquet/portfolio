@@ -2,9 +2,24 @@
 
 @font-face {
     font-family: 'IGS VGA 8x16';
-    src: url("src/assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
+    src: url("./assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cordata_PPC-400';
+    src: url("./assets/fonts/WebPlus_Cordata_PPC-400.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.DIV3 p {
+    font-family: 'Cordata_PPC-400';
+    font-size: 2vb;
+    color: rgb(93, 241, 59);
+    text-align: center;
+    line-height: 1.2rem;
 }
 
 html, body {
@@ -26,8 +41,8 @@ html, body {
     overflow: hidden;
 }
 
-svg {
-    background-color: rgb(249, 196, 36);
+.DIV3 svg {
+    background-color:rgb(216, 152, 34);
     width: 100%; /*need to define viewport in order to do this */
     height: 100%;
 }
@@ -39,3 +54,5 @@ svg {
     color: rgb(93, 241, 59);
     z-index: 10;
 }
+
+

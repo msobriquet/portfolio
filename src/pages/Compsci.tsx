@@ -1,68 +1,174 @@
+import "./Compsci.css"
+import { Link } from 'react-router'
+
 //CS
-// Heist
-// Priority queue
-// Graph theory
-// Map web thing
+// Heist 2023S
+// Priority queue 2025F
+// Map web thing 2025S
+
+//Makeathon 2026S
+// Graph theory 2026S
 
 // Mention 
 // Godel Escher bach TA
 
 function Compsci() {
+
     return (
-        <p>
-            "you are in compsci"
-        </p>
+        <div className="Compsci">
+            <div className="header">
+                <div className="header-title">
+                    <h1> Computer Science</h1>
+                    <Link className='home-link'to='/'>  ⬻ BACK TO HOME </Link> 
+                </div>
+                
+                <p> These are some software engineering projects I've completed during my DIV2 at Hampshire. Clearly, I have been trying to focus
+                    on developing skills related to interactive web design and math visualization. The projects are listed chronologically and the images
+                    contain links to where the application is hosted (they are all live for you to play around with). 
+                </p>
+            </div>
+
+            <Project 
+                img="src/assets/heist-img.png"
+                title="Heist: A Visual Novel Western"
+                link="https://msobriquet.itch.io/heist"
+                num={0}
+            />
+            <Project 
+                img="src/assets/pq-pic.png"
+                title="Heap to Priority Queue Animation"
+                link="https://msobriquet.github.io/priority-queue-anim/"
+                num={1}
+            />
+            <Project 
+                img="src/assets/ar-onto.png"
+                title="The Automated Reasoning Ontology"
+                link="https://zontasticality.github.io/ar-ontology/#start"
+                num={2}
+            />
+            <Project 
+                img="src/assets/hamp-make.png"
+                title="Hampshire College Makeathon Site"
+                link="https://msobriquet.github.io/MakeathonSite/index.html"
+                num={3}
+            />
+            <Project 
+                img="src/assets/lap-exp.png"
+                title="The Laplacian Matrix Explored"
+                link="https://github.com/msobriquet/Laplacian-Explored"
+                num={4}
+            />
+        </div>
     )
 }
 
+//obviously finish this bs
+type ProjectProps = {
+    img: string;
+    title: string;
+    link: string;
+    num: number; //index into descriptions
+}
 
-// function Compsci() {
-//     const descriptions = [
-//         <div>
-//             <h1>
-//                 <strong>Heist</strong>: A Visual Novel Western
-//             </h1>
-//             <p>
-//                 A text-based choose-your-own-adventure game written in Java using the LibGDX library, ported into Javascript and hosted on itch.io. <br/>
-//                 Written for CS120: Object-Oriented Programming at Smith College, taught by Professor Jordan Crouser.
-//             </p>
-//         </div>,
+function Project({img, title, link, num}: ProjectProps) {
+    const descriptions = [
+        <div>
+            <p> FALL 2023</p>
+            <h1>
+                <strong>Heist</strong>: A Visual Novel Western
+            </h1>
+            <p>
+                A text-based choose-your-own-adventure game written in Java using the LibGDX library, ported into Javascript and hosted on itch.io. <br/>
+                Written for CSC120: Object-Oriented Programming at Smith College, taught by Professor Jordan Crouser.
+            </p>
+        </div>,
 
-//         <div>
+        <div>
+            <p>
+                FALL 2025
+            </p>
+            <h1>
+                {title}
+            </h1>
+            <p>
+                A detailed interactive p5.js canvas animation of the structure behind a priority queue, ie. why it is implemented using a binary heap. 
+                Written for COMSC-312: Algorithms at Mount Holyoke College, taught by Professor Audrey St. John.
+            </p>
+        </div>,
 
-//         </div>
-//     ]
+        <div>
+            <p>
+                SPRING 2025
+            </p>
+            <h1>
+                {title}
+            </h1>
+            <p>
+                An ontology, or information graph, of the isomorphism between traditional formal logic and type theory, predicated on the Curry-Howard Correspondence.
+                Written with a team for COSC-345: Automated Reasoning at Amherst College, taught by Professor Andrew Wu.
+            </p>
+        </div>,
 
-//     return (
-//         <Project description={descriptions[0]}/>
-//     )
-// }
+        <div>
+            <p>
+                FALL 2026
+            </p>
+            <h1>
+                {title}
+            </h1>
+            <p>
+                A mobile-friendly professional website for the Hampshire College Makeathon, a hackathon-style event open to interdisciplinary projects that I organized
+                with fellow student organizer Violet Mark. 
+            </p>
+        </div>,
 
-// //obviously finish this bs
-// type ProjectProps = {
-//     description: html;
-//     img: 
-// }
+        <div>
+            <p>
+                FALL 2026
+            </p>
+            <h1>
+                {title}
+            </h1>
+            <p>
+                An interactive visualization of algebraic connectivity and other results in spectral graph theory.
+                Written for MATH-280: Graph Theory at Amherst College, taught by Miriam Kuzbary. [IN PROGRESS]
+            </p>
+        </div>
+    ]
 
-// function Project({description, img}: ProjectProps) {
-//     //or maybe i could do this with css easier...
-//     function handleMouseEnter() {
+    //comparisons between formal logic and type theory
 
-//     }
+    //or maybe i could do this with css easier...
+    //new feature for later
+    // function handleMouseEnter() {
 
-//     function handleMouseLeave() {
+    // }
 
-//     }
+    // function handleMouseLeave() {
 
-//     return (
-//         <img
-//         //specify the img with the prop here
+    // }
+
+    return (
+        <div className="project">
+            <div className="border2">
+                <a href={link}>
+                    <img src={img} alt={title}/>
+                </a>
+            </div>
+
+            <div className="description">
+                {descriptions[num]}
+            </div>
+        </div>
+    )
+}
+
+export default Compsci;
+
+
+// <img
 //         onMouseEnter={handleMouseEnter}
 //         onMouseLeave={handleMouseLeave}
 //         >
 //             {description}
-//         </img>    
-//     )
-// }
-
-export default Compsci;
+//         </img>  

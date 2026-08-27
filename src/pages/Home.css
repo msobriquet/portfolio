@@ -1,5 +1,14 @@
 /*to fill the little gap between the svg and the whole page*/
 
+/*TODO: change all of the image urls to be relative to the CSS not the root*/
+@font-face {
+    font-family: 'Nix8810_M15';
+    src: url("src/assets/fonts/Web437_Nix8810_M15.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 @font-face {
     font-family: 'IGS VGA 8x16';
     src: url("src/assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
@@ -9,6 +18,13 @@
 
 html, body {
     margin: 0;
+}
+
+.home p {
+    position: relative;
+    margin-top: 2rem;
+    font-family: 'Nix8810_M15';
+    z-index: 10;
 }
 
 .home {

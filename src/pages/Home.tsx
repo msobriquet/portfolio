@@ -13,21 +13,34 @@ function Home() {
                         </filter>
                     </defs>
                     <ellipse
-                        cx={200} 
-                        cy={300}
-                        rx={200}
-                        ry={280}
+                        cx={230} 
+                        cy={290}
+                        rx={180}
+                        ry={240}
                         // filter='url(#blur)'
                         fillOpacity="0.5"
                         fill='purple'
                     />
+
+                    <ellipse
+                        cx={400} 
+                        cy={290}
+                        rx={180}
+                        ry={240}
+                        // filter='url(#blur)'
+                        fillOpacity="0.5"
+                        fill='yellow'
+                    />
                 </svg>
-                <Link className='link' style={{top: '20%', left: '30%'}} to='/Math'> math</Link> 
-                <Link className='link' style={{top: '25%', left: '20%'}} to='/Compsci'> computer science</Link> 
-                <Link className='link' style={{top: '10%', left: '20%'}} to='/DIV3'> division 3 plans</Link> 
-                <Link className='link' style={{top: '2%', left: '20%'}} to='/Dance'> dance </Link> 
-                <Link className='link' style={{top: '5%', left: '20%'}} to='/CommunityEngagement'> community engagement </Link> 
-                <Link className='link' style={{top: '95%', left: '20%'}} to='/NOLS'> NOLS </Link> 
+
+                <p> dani ramos's portfolio</p> 
+
+                <Link className='link' style={{top: '47%', left: '45%'}} to='/Math'> math</Link> 
+                <Link className='link' style={{top: '45%', left: '8%'}} to='/Compsci'> computer <br></br> science</Link> 
+                <Link className='link' style={{top: '47%', left: '28%'}} to='/DIV3'> DIV3 <br></br> plans</Link> 
+                <Link className='link' style={{top: '60%', left: '73%'}} to='/Dance'> dance </Link> 
+                <Link className='link' style={{top: '12%', left: '80%'}} to='/CommunityEngagement'> community <br></br> engagement </Link> 
+                <Link className='link' style={{top: '82%', left: '72%'}} to='/Programs'> internships & summer programs </Link> 
             </div>
         </div>
     )
