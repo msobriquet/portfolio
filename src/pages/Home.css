@@ -29,7 +29,7 @@ html, body {
 
 .home {
     font-family: 'IGS VGA 8x16';
-    background-image: url('.../assets/train-tunnel.png');
+    background-image: url('./assets/train-tunnel.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
