@@ -1,5 +1,4 @@
 import './DIV3.css'
-import { Link } from 'react-router'
 
 function DIV3() {
     return (
