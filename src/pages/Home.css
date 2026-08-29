@@ -1,6 +1,8 @@
 /*to fill the little gap between the svg and the whole page*/
 
 /*TODO: change all of the image urls to be relative to the CSS not the root*/
+
+/*remember, ./ means current directory, ../ means parent directory, and you can chain them!*/
 @font-face {
     font-family: 'Nix8810_M15';
     src: url("../assets/fonts/Web437_Nix8810_M15.woff") format('woff');
