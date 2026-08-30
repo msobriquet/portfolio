@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'IGS VGA 8x16';
-    src: url("./assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
+    src: url("../assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Cordata_PPC-400';
-    src: url("./assets/fonts/WebPlus_Cordata_PPC-400.woff") format('woff');
+    src: url("../assets/fonts/WebPlus_Cordata_PPC-400.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }

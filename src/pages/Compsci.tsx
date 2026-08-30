@@ -1,6 +1,13 @@
 import "./Compsci.css"
 import { Link } from 'react-router'
 
+import heistImg from "../assets/heist-img.png";
+import pqPic from "../assets/pq-pic.png";
+import arOnto from "../assets/ar-onto.png";
+import hampMake from "../assets/hamp-make.png";
+import lapExp from "../assets/lap-exp.png";
+
+
 //CS
 // Heist 2023S
 // Priority queue 2025F
@@ -29,31 +36,31 @@ function Compsci() {
             </div>
 
             <Project 
-                img="src/assets/heist-img.png"
+                img= {heistImg}
                 title="Heist: A Visual Novel Western"
                 link="https://msobriquet.itch.io/heist"
                 num={0}
             />
             <Project 
-                img="src/assets/pq-pic.png"
+                img= {pqPic}
                 title="Heap to Priority Queue Animation"
                 link="https://msobriquet.github.io/priority-queue-anim/"
                 num={1}
             />
             <Project 
-                img="src/assets/ar-onto.png"
+                img= {arOnto}
                 title="The Automated Reasoning Ontology"
                 link="https://zontasticality.github.io/ar-ontology/#start"
                 num={2}
             />
             <Project 
-                img="src/assets/hamp-make.png"
+                img= {hampMake}
                 title="Hampshire College Makeathon Site"
                 link="https://msobriquet.github.io/MakeathonSite/index.html"
                 num={3}
             />
             <Project 
-                img="src/assets/lap-exp.png"
+                img= {lapExp}
                 title="The Laplacian Matrix Explored"
                 link="https://github.com/msobriquet/Laplacian-Explored"
                 num={4}

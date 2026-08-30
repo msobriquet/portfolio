@@ -1,12 +1,13 @@
-
 import './Dance.css'
+import stickDance from '../assets/stick-dance.gif';
+import stickDance2 from '../assets/stick-dance2.gif';
 
 function Dance() {
     return (
         <div className="Dance">
             <div className="container">
-                <img src='src/assets/stick-dance.gif' style={{width: '10rem', height: '15rem'}}></img>
-                <img src='src/assets/stick-dance2.gif' style={{width: '10rem', height: '15rem'}}></img>
+                <img src= {stickDance} style={{width: '10rem', height: '15rem'}}></img>
+                <img src= {stickDance2} style={{width: '10rem', height: '15rem'}}></img>
                 <p>
                     During my second year of my DIV2, I took two classes in street styles of dance, namely Hip Hop and Punking/Waacking. 
                     Both of these styles were pioneered by people of color and served as a source of joy and connection for underserved 

@@ -1,7 +1,7 @@
 
 .Dance {
     position: absolute;
-    background-image: url('src/assets/concrete.jpg');
+    background-image: url('../assets/concrete.jpg');
     font-family: 'IGS VGA 8x16';
     background-repeat: no-repeat;
     background-size: cover;

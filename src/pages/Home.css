@@ -5,7 +5,7 @@
 /*remember, ./ means current directory, ../ means parent directory, and you can chain them!*/
 @font-face {
     font-family: 'Nix8810_M15';
-    src: url("../assets/fonts/Web437_Nix8810_M15.woff") format('woff');
+    src: url("..assets/fonts/Web437_Nix8810_M15.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }

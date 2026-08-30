@@ -15,86 +15,6 @@ import './Math.css'
 //useEffect(() => {}, []);
 //no matter whats in the dependency array, it will always run at least once, when the component mounts.
 
-// interface CanvasProps extends CanvasHTMLAttributes<HTMLCanvasElement>{
-//     draw: (context: CanvasRenderingContext2D) => void;
-//     width: number;
-//     height: number;
-// }
-
-//GONNA HAVE TO GO BACK THRU THIS CODE AND REFACTOR THIS PART. CAUSE I DO WANT TO USE P5.JS
-
-// const Canvas = ({ draw, width, height, ...rest }: CanvasProps) => {
-//   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-
-//   useEffect(() => {
-//     const canvas = canvasRef.current;
-//     if(!canvas) return; //makes sure canvas is not null
-
-//     const context = canvas.getContext('2d');
-//     let animationFrameId;
-
-//     const render = () => {
-//       // Clear the canvas prior to re-drawing if needed
-//       context!.clearRect(0, 0, canvas.width, canvas.height);
-      
-//       // Execute the custom drawing logic passed via props
-//       draw(context!);
-      
-//       // Optional: Handle animations by queuing the next frame
-//       //animationFrameId = window.requestAnimationFrame(render);
-//     };
-    
-//     render();
-
-//     return () => {
-//       // Clean up any ongoing animations on unmount
-//       if (animationFrameId !== undefined) window.cancelAnimationFrame(animationFrameId);
-//     };
-//   }, [draw]); // Re-run effect if the draw logic changes
-//   //^dependency array
-
-//   // Pass remaining native canvas props (like className or style) using ...rest
-//   return <canvas ref={canvasRef} width={width} height={height} {...rest} />;
-// };
-
-
-
-
-// const P5Canvas = () => {
-//   const canvasRef = useRef(null);
-
-//   useEffect(() => {
-//     // Define your p5 sketch using instance mode
-//     const sketch = (p: p5) => {
-//       let x = 100;
-//       let y = 100;
-
-//       p.setup = () => {
-//         // Attach the canvas directly to our React ref element
-//         p.createCanvas(400, 400).parent(canvasRef.current);
-//       };
-
-//       p.draw = () => {
-//         p.background(220);
-//         p.fill(255, 0, 0);
-//         p.ellipse(x, y, 50, 50);
-
-//         // Simple movement animation
-//         x = (x + 2) % p.width;
-//       };
-//     };
-
-//     // Instantiate the p5 sketch
-//     const myP5 = new p5(sketch);
-
-//     // Clean up and remove the canvas when the component unmounts
-//     return () => {
-//       myP5.remove();
-//     };
-//   }, []);
-
-//   return <div ref={canvasRef}></div>;
-// };
 
 //viewbox takes min-x, min-y, width, and height
 function DrawCurve() {
@@ -200,16 +120,6 @@ function DrawCurve() {
         </svg>
     )
 }
-
-{/* <circle
-                cx={innerWidth/4}
-                cy={innerHeight/6}
-                r={300}
-                fill="url(#outside-circle)"
-                filter='url(#blur)'
-                fillOpacity="1"
-            /> */}
-
 
 function Math() {
     
