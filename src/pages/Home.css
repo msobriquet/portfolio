@@ -3,20 +3,6 @@
 /*TODO: change all of the image urls to be relative to the CSS not the root*/
 
 /*remember, ./ means current directory, ../ means parent directory, and you can chain them!*/
-@font-face {
-    font-family: 'Nix8810_M15';
-    src: url("..assets/fonts/Web437_Nix8810_M15.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'IGS VGA 8x16';
-    src: url("../assets/fonts/Web437_IGS_VGA_8x16.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html, body {
     margin: 0;

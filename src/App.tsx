@@ -1,6 +1,5 @@
 //import { useState } from 'react'
 import { Routes, Route } from 'react-router';
-import './App.css'
 import Home from './pages/Home.tsx';
 import Math from './pages/Math.tsx';
 import Compsci from './pages/Compsci.tsx';

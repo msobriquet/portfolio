@@ -1,8 +1,14 @@
+import heistImg from "../assets/heist-img.png";
 
+console.log("IMAGE:", heistImg);
 
 function Programs() {
     return (
-        "you are here"
+        <div>
+            <h1> TEST</h1>
+            <img src= {heistImg} />
+        </div>
+
     )
 }
 
