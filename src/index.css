@@ -1,1 +1,5 @@
-
+/*  this is where a new cursor would go, but its not working and i don't like the contrast
+body {
+    cursor: url("./assets/silver-1/Normal\ Select.cur"), auto !important;
+    cursor: url("./assets/silver-1/Link\ Select.ani"), pointer;
+} */

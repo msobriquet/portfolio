@@ -14,6 +14,10 @@ html, body {
     font-family: 'Cordata_PPC-400';
 }
 
+.header {
+    padding-left: 2rem;
+}
+
 .header-title {
     display: flex;
     align-items: center;

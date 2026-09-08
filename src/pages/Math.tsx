@@ -126,7 +126,7 @@ function Math() {
     return (
         <div className="math">
            <div className='container'>
-                 <p className="border2">
+                 <p className="border3">
                     Due in part to the legacy of David Kelly and in part to our ethos of self-discovery, Hampshire has always had a strong 
                     pure math tradition. Although the 2019 'closure' left the math department wanting, I absorbed the passion of my peers and 
                     the oft-given advice that pursuing math is essential for computer scientists looking to differentiate themselves and pivot 

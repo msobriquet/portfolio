@@ -25,7 +25,7 @@ function Compsci() {
         <div className="Compsci">
             <div className="header">
                 <div className="header-title">
-                    <h1> Computer Science</h1>
+                    <h1> Programming <br></br> Projects</h1>
                     <Link className='home-link'to='/'>  ⬻ BACK TO HOME </Link> 
                 </div>
                 

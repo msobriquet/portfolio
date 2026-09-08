@@ -7,6 +7,9 @@ html, body {
 .math {
     position: absolute;
     background-color: rgb(13, 13, 113); 
+    background-image: url("../assets/twinkle-star.gif");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     overflow: hidden;
 }
 
@@ -42,6 +45,12 @@ html, body {
 .border2 {
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACAElEQVR4Xu3awY6DMAyE4fb9H7p7sRCZ0hgzg3BW850q4TTJv/S275dJvbdPJuGgYg4qpgj62T79D1QTanFw0B0H/UY1oRYHv6E7V4JiwCvf0Rl1v9JwoDZcAHW/0nCgNlwAdb/ScKA2XAB1vzPDuAHC78jmu6meH+cH04ehukE23031/Dg/mD4M1Q2y+W6q58f5wfRhqG6QzXdTPT/OD44e4hcezczg+u7Y+w3rj75suuAEXN8dez8HBQ4q9nhQfOUz1QPfjT0/rqd/8vg8g+ufxp4f1zvoluIcB00sFxT/ot1lgfE+OH/7Tx4P0B0GQngfnHdQgIGQgxY5qJiDijmomIOKOaiYg4o5qJiDijmomIOKOaiYg4o5qJiDijmomIOKOaiYg4o5qJiDijmomIOKOaiYg4o5qJiDijmomIOKOaiYg4o5qJiDirUPivA/gJ+WBUR4flx/+7+EIzzQ0zBIBs+P6x10S3GOgybaBc1UD/w0fAMzeD/6J5/B9d2x93NQ4KBitwdF+IojPFA23031/Dg/mD4M1Q2y+W6q58f5wfRhqG6QzXdTPT/OD6YPQ3WDbL6b6vlxfjB9+ANueOU7OqPuVxoO1IYLoO5XGg7Uhgug7lcaDtSGC6DuVxr+AQ+wOqoJtTg46I6DfqOaUIuD39AdRVDbcVAxBxVzULE/lMH4Vff6LJIAAAAQZGVCR0NBMjVENjc0Q0MxOEFEQTTHzLH0AAAAAElFTkSuQmCC") 28 /  28px / 0 round;
     border-width:  28px;
+    border-style:  solid;
+}
+
+.border3 {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAxUlEQVQ4T6WP0RHCMAxDyQgswSLMzSIs0RHgdEU5xZFzTtFPIlt6advrfXxuPz0f98b7rpTTYK7CCNI+Zh2qL1ExHHOZH0pcqHfKMpzbJRSLK487T8zsQosajspyPbwqZ3IfgXOC/gOnH6C8V6FZZyjHFysi2ELdsqrYnb4U5y44/qGFQlWw60zQKoxiR7sdwBdjoKoUSiB8BnU5neG0UAK1uPKqCco7tCpSMUM/fPoZPZfOswS5x5hLwzrbUYdycBUEKecLUPYdQ8zJFPkAAAAQZGVCRzVDMzVEMEI4OEY5QzhDMDiN6kC4AAAAAElFTkSuQmCC") 7 /  7px / 0 round;
+    border-width:  20px;
     border-style:  solid;
 }
 
