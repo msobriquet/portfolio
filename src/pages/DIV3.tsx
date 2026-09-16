@@ -92,14 +92,14 @@ function DIV3() {
 
         
 
-        <p style={{position: 'absolute', top: '20rem', left: '35rem', width: '36rem'}}>
+        <p style={{position: 'absolute', top: '19rem', left: '33rem', width: '36rem'}}>
             Before Hampshire's closing, my DIV3 plans revolved around completing mathematics research with a focus on possible visualizations of the material, 
             as well as programming an interactive web application that brought familiarity with the results to the interested undergraduate through complete 
             immersion (sound and visual design). I have always been fascinated by the concept of comprehensible input in linguistics (I originally started 
             college with the intention to major in linguistics), which is a method of language learning wherein the learner is immersed in constant input with 
             the target language, along with visuals, gestures, and body language that enhances the comprehensibility but without translation. In a similar way,
             my biggest struggle with math has been becoming a native 'speaker' of the language, and finding ways to immerse myself in the different kinds of 
-            input—algebraic, geometric, graphical—without trying to translate or find a suitable metaphor. My plan was to create an artistically appealing 'game'
+            input—--algebraic, geometric, graphical—--without trying to translate or find a suitable metaphor. My plan was to create an artistically appealing 'game'
             that engaged the 'player' or learner with the material in a new way. As for the research itself, I was pursuing subfields of linear algebra, such as 
             linear topological spaces and spectral linear algebra, with the intent of finding an advisor at one of the five colleges to help guide my studies further.  
         </p>

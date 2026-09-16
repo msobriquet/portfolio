@@ -4,9 +4,10 @@ import Home from './pages/Home.tsx';
 import Math from './pages/Math.tsx';
 import Compsci from './pages/Compsci.tsx';
 import DIV3 from './pages/DIV3.tsx';
-import Dance from './pages/Dance.tsx';
-import CommunityEngagement from './pages/community-engagement.tsx';
-import Programs from './pages/programs.tsx';
+// import Dance from './pages/Dance.tsx';
+// import CommunityEngagement from './pages/community-engagement.tsx';
+// import Programs from './pages/programs.tsx';
+import Temp from './pages/Temp.tsx';
 
 //SVG is to graphics what HTML is to text.
 //viewbox goes in first svg tag; changes size of svg grid to be different from css grid
@@ -24,9 +25,9 @@ function App() {
       <Route path='/Math' element={<Math/>}/>
       <Route path='/Compsci' element={<Compsci/>}/>
       <Route path='/DIV3' element={<DIV3/>}/>
-      <Route path='/Dance' element={<Dance/>}/>
-      <Route path='/CommunityEngagement' element={<CommunityEngagement/>}/>
-      <Route path='/Programs' element={<Programs/>}/>
+      <Route path='/Dance' element={<Temp/>}/>
+      <Route path='/CommunityEngagement' element={<Temp/>}/>
+      <Route path='/Programs' element={<Temp/>}/>
     </Routes>
   )
   

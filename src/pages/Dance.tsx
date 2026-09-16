@@ -78,7 +78,7 @@ function DraggableContainer({children}: ContainerProps) {
     return (
        <div className="draggableContainer"
        onMouseDown={handleMouseDown}
-       style={{transform: `translate(${position.x}px, ${position.y})`}}
+       style={{transform: `translate(${position.x}px, ${position.y}px)`}}
        >
         {children}
        </div>
